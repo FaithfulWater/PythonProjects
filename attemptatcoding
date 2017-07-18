@@ -1,0 +1,36 @@
+from turtle import *
+import math
+
+# Name your Turtle.
+t = Turtle()
+
+# Set Up your screen and starting position.
+setup(600,400)
+x_pos = -75
+y_pos = 0
+t.setposition(x_pos, y_pos)
+x_pos = -75
+y_pos = 100
+### Write your code below:
+
+penup()
+left(120)
+pendown()
+forward(50)
+left(120)
+forward(50)
+left(120)
+forward(50)
+left(120)
+penup()
+forward(100)
+pendown()
+forward(75)
+left(90)
+forward(75)
+left(90)
+forward(75)
+left(90)
+forward(75)
+left(90)
+penup()
