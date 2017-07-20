@@ -30,7 +30,7 @@ if user_input == "wait until she's gone":
 elif user_input == "wait until she's not looking":
     print("You lose! You got caught by your mom.")
 elif user_input == "stay home":
-    print("You choose to stay home and ...") # finished the story writing what happens
+    print("You choose to stay home and nothing happens. You sleep, missing out on an epic night out.") # finished the story writing what happens
 else:
     choiceNotMade = True
     while choiceNotMade:
@@ -39,8 +39,8 @@ else:
         print("Type 'sneak out' to sneak out or 'stay home' to stay home.")
         user_input = input()
         if user_input == "sneak out":
-            print("You decide to sneak out and...") # finished the story by writing what happens
+            print("You decide to sneak out and come across your sleeping dog.") # finished the story by writing what happens
             choiceNotMade = False
         elif user_input == "stay home":
-            print("You choose to stay home and ...") # finished the story writing what happens
+            print("You choose to stay home and nothing happens. You sleep, missing out on an epic night out.") # finished the story writing what happens
             choiceNotMade = False
