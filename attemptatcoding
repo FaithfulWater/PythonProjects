@@ -1,36 +1,32 @@
-from turtle import *
-import math
-
-# Name your Turtle.
-t = Turtle()
-
 # Set Up your screen and starting position.
 setup(600,400)
-x_pos = -75
-y_pos = 0
-t.setposition(x_pos, y_pos)
-x_pos = -75
-y_pos = 100
+#x_pos = -75
+#y_pos = 0
+#t.setposition(x_pos, y_pos)
+#x_pos = -75
+#y_pos = 100
 ### Write your code below:
+colormode(255)
+redString = input("Enter red value:")
+a = int(redString)
+greenString = input("Enter green value:")
+b = int(greenString)
+blueString = input("Enter blue value:")
+c = int(blueString)
+pencolor(a,b,c)
 
-penup()
-left(120)
-pendown()
-forward(50)
-left(120)
-forward(50)
-left(120)
-forward(50)
-left(120)
-penup()
-forward(100)
-pendown()
-forward(75)
-left(90)
-forward(75)
-left(90)
-forward(75)
-left(90)
-forward(75)
-left(90)
-penup()
+count = 0
+sideString = input("Enter the number of sides:")
+x = int(sideString)
+fillcolor(a,b,c)
+begin_fill()
+while (count<x):
+    forward(50)
+    left(360/ x )
+    count+=1
+end_fill()
+
+
+
+# Close window on click.
+exitonclick()
